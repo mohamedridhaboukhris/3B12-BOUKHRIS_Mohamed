@@ -1,0 +1,23 @@
+section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(87, 87, 100);
+    color: #333;
+}
+h1{
+    background-color: rgb(87, 87, 100); 
+    padding: 20px;
+    color: white;
+
+}
+nav{font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h5{font-family: Arial, sans-serif;
+    background-color: rgb(250, 250, 252);
+    margin: 0;
+    padding: 0;
+    color: black;
+}

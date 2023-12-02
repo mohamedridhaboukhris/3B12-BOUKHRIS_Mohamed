@@ -1,0 +1,39 @@
+nav {
+     
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header section {
+   background-color: rgb(87, 87, 100); 
+   padding: 20px;
+   color: white; 
+}
+footer {
+    background-color: rgb(87, 87, 100); 
+   padding: 20px;
+   color: white
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+b{ font-family: Arial, sans-serif;
+    background-color: rgb(87, 87, 100); 
+    padding: 20px;
+    color: white
+}
+h1{
+    background-color: rgb(87, 87, 100); 
+    padding: 20px;
+    color: white;
+}
+
