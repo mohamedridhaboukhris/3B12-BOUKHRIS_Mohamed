@@ -19,7 +19,27 @@
         
         <p>Web Developer</p>
     </head>
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var experienceMessage = "Bienvenue dans la section Expérience!\n\n" +
+                                    "Explorez mes expériences professionnelles, projets réalisés, et compétences acquises tout au long de ma carrière.";
+    
+            alert(experienceMessage);
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var accueilLink = document.querySelector('a[href="experience.html"]');
+    
+            accueilLink.addEventListener('mouseover', function() {
+                accueilLink.style.color = 'red';
+            });
+    
+            accueilLink.addEventListener('mouseout', function() {
+                accueilLink.style.color = 'black';
+            });
+        });
+    </script>
     <nav>
         <ul>
             <li><a href ="accueil.html" style="color: purple;">accueil</a></li>

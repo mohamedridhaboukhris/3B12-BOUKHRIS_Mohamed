@@ -4,6 +4,38 @@
         <title>accueil</title>
         <meta charset="UTF8">
  </head>
+ <script>
+   
+    var motDePasseAttendu = "mohamed";
+
+    
+    var motDePasseUtilisateur = prompt("Veuillez entrer le mot de passe :");
+
+   
+    if (motDePasseUtilisateur === motDePasseAttendu) {
+        
+        document.write("<h1>Bienvenue sur la page protégée!</h1>");
+    } else {
+        
+        document.write("<h1>Accès refusé. Mot de passe incorrect.</h1>");
+    }
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var accueilLink = document.querySelector('a[href="accueil.html"]');
+
+        accueilLink.addEventListener('mouseover', function() {
+            accueilLink.style.color = 'red';
+        });
+
+        accueilLink.addEventListener('mouseout', function() {
+            accueilLink.style.color = 'black';
+        });
+    });
+</script>
+
+
+
  </style>
     <body>
         <header> 
@@ -24,7 +56,7 @@
             <table>
                 <tr>   
             <td><img src="images/photo.jpg" widh="100" height="100"></td>
-             <td> 
+             <td>
                 <hr>
                 <h1>mohamed ridha boukhris</h1>
              </td>

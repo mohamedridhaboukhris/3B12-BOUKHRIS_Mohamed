@@ -36,7 +36,27 @@
 
 </head>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var parcoursMessage = "Bienvenue dans la section Parcours Académique!\n\n" +
+                              "Découvrez mon parcours éducatif, les diplômes obtenus, et mes réalisations académiques.";
 
+        alert(parcoursMessage);
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var accueilLink = document.querySelector('a[href="parcours.html"]');
+
+        accueilLink.addEventListener('mouseover', function() {
+            accueilLink.style.color = 'red';
+        });
+
+        accueilLink.addEventListener('mouseout', function() {
+            accueilLink.style.color = 'black';
+        });
+    });
+</script>
     <header>
         <h2>parcours academique</h2>
             <table>

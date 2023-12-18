@@ -20,6 +20,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOUKHRIS Mohamed RIDHA - Contact</title>
 </head>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var welcomeMessage = "Bienvenue dans la section de contact!\n\n" +
+                             "N'hésitez pas à nous contacter si vous avez des questions ou des commentaires.";
+
+        alert(welcomeMessage);
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var accueilLink = document.querySelector('a[href="contact.html"]');
+
+        accueilLink.addEventListener('mouseover', function() {
+            accueilLink.style.color = 'red';
+        });
+
+        accueilLink.addEventListener('mouseout', function() {
+            accueilLink.style.color = 'black';
+        });
+    });
+</script>
 <body>
     <header>
         
